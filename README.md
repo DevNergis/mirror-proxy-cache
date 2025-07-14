@@ -1,1 +1,1 @@
-# mirror-cache-cdn
+# mirror-proxy-cache
