@@ -17,7 +17,7 @@ class CacheEntry:
 
 
 class Settings(BaseSettings):
-    UPSTREAM_MIRROR_URL: str = "https://sg.archive.ubuntu.com/"
+    UPSTREAM_MIRROR_URL: str = "https://mirrors.tuna.tsinghua.edu.cn/"
     CACHE_MAX_SIZE: int = 128
 
     model_config = SettingsConfigDict(env_file=".env", env_file_encoding="utf-8")
